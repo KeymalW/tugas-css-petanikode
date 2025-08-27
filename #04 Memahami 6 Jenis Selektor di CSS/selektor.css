@@ -1,0 +1,44 @@
+p { /* memilih semua elemen paragraf <p> */
+    color: blue;
+}
+
+.pink { /* memilih semua elemen dengan class "pink" */
+  color: white;
+  background: pink;
+  padding: 5px;
+}
+.text-white { /* memilih semua elemen dengan class "text-white" */
+    color: white; /* properti color untuk mengubah warna teks */
+}
+
+.bg-teal { /* memilih semua elemen dengan class "bg-teal" */
+    background: teal; /* properti background untuk mengubah warna latar belakang */
+}
+
+
+#header { /* memilih elemen dengan ID "header" */
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+
+input[type=text] { /* memilih elemen input dengan atribut type="text" */
+    background: none;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid rgb(51, 0, 255);
+}
+
+* { /* selektor universal, memilih semua elemen */
+    border: 1px solid grey;
+}
+
+
+a:hover { /* selektor pseudo-class, memilih elemen <a> saat dihover */
+  color: green;
+}
+p span { /*selektor pseudo-element, memilih elemen <span> di dalam <p> */
+  color: magenta;
+}
