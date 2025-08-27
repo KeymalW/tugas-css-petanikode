@@ -1,0 +1,89 @@
+header {
+        text-align: center; /* membuat teks pada elemen header menjadi rata tengah */
+      }
+
+      .text-left {
+        text-align: left; /* membuat teks pada elemen dengan class text-left menjadi rata kiri */
+      }
+
+      .text-right {
+        text-align: right; /* membuat teks pada elemen dengan class text-right menjadi rata kanan */
+      }
+
+      .text-center {
+        text-align: center; /* membuat teks pada elemen dengan class text-center menjadi rata tengah */
+      }
+
+      .text-justify {
+        text-align: justify; /* membuat teks pada elemen dengan class text-justify menjadi rata kiri dan kanan */
+      }
+
+      h2 {
+          direction: rtl; /* mengatur arah teks menjadi dari kanan ke kiri */
+      }
+
+      .text-start {
+        text-align: start; /* membuat teks pada elemen dengan class text-start menjadi rata awal (kiri untuk bahasa LTR, kanan untuk bahasa RTL) */
+      }
+
+      .text-end {
+        text-align: end; /* membuat teks pada elemen dengan class text-end menjadi rata akhir (kanan untuk bahasa LTR, kiri untuk bahasa RTL) */
+      }
+
+         h1 {
+        text-decoration: underline; /* menambahkan garis bawah pada teks di elemen h1 */
+        }
+
+        p {
+            line-height: 1.5; /* mengatur jarak antar baris pada paragraf */
+        }
+
+        .upperline {
+            text-decoration: overline dashed violet; /* menambahkan garis di atas teks dengan gaya dashed dan warna violet */
+        }
+
+        .underline {
+            text-decoration: underline wavy green; /* menambahkan garis bawah pada teks dengan gaya wavy dan warna hijau */
+        }
+
+        .strike {
+            text-decoration: line-through red; /* menambahkan garis coret pada teks dengan warna merah */
+        }
+
+        .upper {
+            text-transform: uppercase; /* mengubah teks menjadi huruf kapital semua */
+        }
+
+        .lower { 
+            text-transform: lowercase; /* mengubah teks menjadi huruf kecil semua */
+        }
+
+        .small {
+            font-size: 8px;
+            letter-spacing: 2px;
+            text-transform: uppercase; /* mengubah teks menjadi huruf kapital semua */
+        }
+
+        .line-height {
+            line-height: 1.6; /* mengatur jarak antar baris pada paragraf menjadi 1.6 kali tinggi font */
+        }
+
+        .indent {
+            text-indent: 2em; /* mengatur indentasi pada baris pertama paragraf sebesar 2em */
+        }
+
+        .nowrap {
+            white-space: break-spaces; /* mengatur white-space pada paragraf agar mengikuti spasi seperti yang ditulis di dalam HTML */
+        }
+
+        h4 {
+            width: 320px;
+            white-space: nowrap; /* mencegah teks untuk pindah baris */
+            overflow: hidden; /* menyembunyikan teks yang melebihi lebar elemen */
+            text-overflow: ellipsis; /* menambahkan ... pada akhir teks yang terpotong */
+        }
+
+        h1 {
+            color: lime;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* menambahkan bayangan pada teks */
+        }
