@@ -1,0 +1,24 @@
+header { 
+	color: lime; /* penulisan warna dengan nama warna */
+}
+
+h3 {
+    color: #0011ff /* penulisan warna dengan kode heksadesimal */
+}
+
+h1 {
+	color: rgb(0, 255, 208); /* penulisan warna dengan kode RGB */
+}
+h2 {
+    color: rgba(255, 0, 0, 0.8); /* penulisan warna dengan kode RGBA, dengan nilai alpha 0.8 */
+}
+
+h4 {
+    color: hsl(324, 70%, 40%); /* penulisan warna dengan kode HSL */
+}
+
+h5 {
+  background: linear-gradient(80deg, rgb(202, 8, 11) 0%, rgb(52, 253, 45) 100%); /* gradasi linear */
+  background-clip: text; /* membuat teks terisi dengan gradasi */
+  -webkit-text-fill-color: transparent; /* membuat teks transparan sehingga hanya terlihat gradasi */
+}
