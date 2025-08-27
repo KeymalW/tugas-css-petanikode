@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Internal CSS</title>
+  <!-- penulisan internal css dalam tag head -->
+  <style type="text/css"> /* style tag untuk menulis css */
+    p{
+      font-family: serif; /* font-family untuk menentukan jenis huruf */
+      line-height: 1.75em; /* line-height untuk menentukan jarak antar baris */
+      font-size: 18px; /* font-size untuk menentukan ukuran huruf */
+    }
+    i  {  /* memilih teks yang memiliki tag <i> menjadi memiliki style */
+      font-family: sans; 
+      color: rgb(255, 81, 0); /* color untuk menentukan warna huruf */
+    }
+  </style> <!-- akhir style tag -->
+</head>
+
+<body>
+  <!-- penulisan internal css dalam tag body -->
+  <style type="text/css"> 
+    h2 { 
+      font-family: sans; 
+      color: #e30b0b; 
+    }
+  </style>
+  <h2>Ini judul artikel</h2>
+  <p>Ini adalah paragraf yang memuat isi artikel. Paragraf ini hanya untuk percobaan saja. Percobaan untuk mendemokan <i>internal css</i> .
+     Seperti namanya, <i>inline CSS</i> <!-- tag <i> berfungsi untuk membuat teks menjadi miring serta membuat teks memiliki style--> adalah kode CSS yang ditulis langsung dalam file HTML.</p>
+        <hr>
+    <h2 style="color:red;font-family:sans">Ini contoh inline CSS</h2> <!--  kode CSS yang ditulis langsung pada atribut style di elemen HTML. -->
+</body>
+</html>
