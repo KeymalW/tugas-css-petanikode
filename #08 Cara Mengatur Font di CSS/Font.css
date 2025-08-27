@@ -1,0 +1,42 @@
+h1 {
+      font-size: 30px; /* mengatur ukuran font pada elemen h1 menjadi 30 piksel */
+      color: rgb(61, 205, 249);
+    }
+    .font-big { /* class untuk mengatur ukuran font menjadi besar */
+      font-size: x-large;
+    }
+
+    .font-small { /* class untuk mengatur ukuran font menjadi kecil */
+      font-size: small;
+    }
+
+    h1 {
+            font-weight: bold; /* mengatur ketebalan font pada elemen h2 menjadi tebal */
+        }
+
+        .light {
+            font-weight: lighter; /* mengatur ketebalan font pada elemen dengan class light menjadi lebih ringan dari font normal */
+        }
+
+        .bold {
+            font-weight: bold; /* mengatur ketebalan font pada elemen dengan class bold menjadi tebal */
+        }
+
+        blockquote { 
+            font-style: roboto; /* mengatur jenis font pada elemen blockquote dengan font-style */
+            font-size: larger; /* mengatur ukuran font pada elemen blockquote menjadi lebih besar dari font normal */
+            color: rgb(255, 30, 150);
+        }
+        cite {
+            font-size: small; /* mengatur ukuran font pada elemen cite menjadi kecil */
+            font-style: normal;
+            color: lime;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif; /* mengatur jenis font pada elemen h1 dengan font-family */
+        }
+
+        p {
+            font-family: cursive; /* mengatur jenis font pada elemen p dengan font-family cursive */
+        }
