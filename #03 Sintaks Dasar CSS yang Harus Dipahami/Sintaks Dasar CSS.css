@@ -1,0 +1,39 @@
+/* Sintaks Dasar CSS */
+
+/* Selektor */
+/* Selektor dengan nama tag */
+h2 {
+    color: blue /* properti color untuk mengubah warna teks */
+}
+
+/* Selektor dengan class */
+.bg-yellow {
+    background-color: yellow; /* properti background-color untuk mengubah warna latar belakang */
+}
+
+/* selektor dengan ID elemen */
+#header {
+    background: grey; /* properti background untuk mengubah warna latar belakang */
+}
+
+/* Selektor dengan Atribut */
+input[type=text]{ /* memilih elemen input dengan atribut type="text" */
+    background: yellow; /* properti background untuk mengubah warna latar belakang */
+}
+
+/* Blok Deklarasi */
+p { /* memilih semua elemen paragraf <p> */ /* Artinya, kita akan mengatur ukuran font dari tag <p> sebesar 18px */
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 { /* Ini artinya kita memberikan warna sama untuk semua tag <h1> sampai <h6> */
+  color: teal;
+}
+
+/* Properti dan Nilai */
+blockquote { 
+    background: pink; /* Setiap properti harus diakhiri dengan titik koma (;). Apabila hanya terdapat satu properti, boleh tidak menggunakan titik koma. */
+}
+
+
+/* Penulisan Komentar */
+/* Komentar diawali dengan /* dan diakhiri dengan */ /*Komentar dapat ditulis di baris yang sama dengan kode CSS atau di baris terpisah. */
