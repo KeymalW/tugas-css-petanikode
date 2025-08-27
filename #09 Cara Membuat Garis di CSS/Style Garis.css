@@ -1,0 +1,37 @@
+ body {
+            font-family: sans-serif;
+        }
+        header {
+            border: 2px solid blue; /* membuat garis di semua sisi */
+            text-align: center; /* membuat teks di tengah */
+            margin-bottom: 1em; /* memberikan jarak bawah */
+        }
+
+        article {
+            border: 2px solid fuchsia;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+
+        header {
+        border-bottom: 2px dashed red; /* membuat garis di sisi bawah header */
+      }
+      footer {
+        border-top: 1px double blue; /* membuat garis di sisi atas footer */
+      }
+
+          article {
+      border: 1px solid silver;
+      padding: 1em;
+      margin-bottom: 1em;
+      border-radius: 16px;
+    }
+
+    blockquote {
+      margin: 1em;
+      padding: 1em;
+      font-size: 2em;
+      border-width: 1em;
+      border-style: solid;
+      border-image: url(border.svg) 100 round;
+    }
