@@ -1,0 +1,17 @@
+body {
+        background-image: url('blue.jpg'); /* properti background-image untuk menambahkan gambar latar belakang */
+        background-repeat: no-repeat; /* properti background-repeat untuk mengatur pengulangan gambar */
+        background-size: cover; /* properti background-size untuk mengatur ukuran gambar */
+
+      }
+
+      header {
+        background: rgb(34,193,195); /* penulisan warna dengan kode RGB */
+        background: linear-gradient(90deg, rgb(69, 34, 195) 0%, rgba(240,45,253,1) 100%); /* gradasi linear */
+      }
+
+      article {
+        background-color: rgba(194, 44, 44, 0.5);
+        backdrop-filter: blur(10px); /* efek blur pada latar belakang */
+        padding: 1rem; /* padding untuk memberi jarak antara teks dan tepi elemen */
+      }
